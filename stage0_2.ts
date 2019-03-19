@@ -3,28 +3,28 @@ import { Stage } from '../../lib/stage';
 import { safeCast } from '../../lib/util/util';
 
 export default safeCast<Stage>({
-  name: 'Sernimir II - Of Pancakes and Spaceships',
+  name: 'Sernimir II - Crossover',
 
-  record: [45, 1, 14],
+  record: [156, 1, 17],
 
   reactor: new Reactor(
     new ReactorLayer('1.red', genCells(
       '   |   |   |   |   |   |   |   |   |   ',
-      '   |   |g> |   |l  |o  |d< |   |   |   ',
+      '   |gv |i  |s< |   |   |<  |   |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
+      '   |   |   |   |   |   |O  |   |   |   ',
+      '   |>  |   |   |   |   |d^ |   |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
-      '   |   |i^ |   |   |   |   |   |   |   ',
-      '   |   |s^ |   |   |   |   |   |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
     )),
     new ReactorLayer('1.blue', genCells(
       '   |   |   |   |   |   |   |   |   |   ',
-      '   |   |g> |o  |i  |l  |d< |   |   |   ',
-      '   |   |s^ |   |   |   |   |   |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
-      '   |   |   |   |   |   |   |   |   |   ',
+      '   |Sv |   |   |   |o  |d  |<  |   |   ',
+      '   |I  |   |   |   |   |   |   |   |   ',
+      '   |g> |   |   |   |   |   |^  |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
       '   |   |   |   |   |   |   |   |   |   ',
     )),
